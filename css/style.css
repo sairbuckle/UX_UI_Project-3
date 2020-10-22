@@ -1,0 +1,183 @@
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    font-family: 'Lato', sans-serif;
+font-weight: 300;    
+color: black;
+    font-size: min(max(1.1rem, 1.6vw),42px);
+    margin-top: 10%;
+}
+
+.kerning {
+    font-size: 36px;
+
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    line-height: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    font-size: min(max(1rem, 1.5vw),36px);
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: black;
+    font-size: min(max(1rem, 1.5vw),36px);
+}
+
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    color: black;
+    font-size: min(max(0.6rem, 1vw),12px);
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: min(max(0.8rem, 1.1vw),16px);
+}
+
+#apple {
+max-width: 8vw;
+min-width: 8vw;
+max-height: auto;
+min-height: auto;
+margin-top:8%;
+}
+
+#AIintro {
+    padding-left: 3%;
+}
+
+#google {
+    width: 9vw;
+    height: auto;
+    margin-top:8%;
+    margin-left: 2%;
+    }
+
+
+
+
+.icons {
+    width: 3vw;
+    height: auto;
+    padding: 2%;
+    border-radius: 4px;
+}
+
+
+.container {
+    width: 80%;
+    /* height: auto;  */
+    /* padding-top: 10%; */
+    /* padding-bottom: 10%;  */
+    background-color: none;
+
+}
+
+.overview {
+    background-color: white;
+}
+
+.feature {
+    background-color: rgb(215,245,255);
+}
+
+.AI {
+    background-color:white ;
+}
+
+.customers {
+    background-color:rgb(255, 215, 236) ;
+}
+
+.row {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.col-5 {
+    padding-left: 3%;
+}
+
+.test {
+    color: black;
+}
+
+#nav {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#AIintro {
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.iphone {
+    width: 20vw;
+    height: auto;
+    padding: 1%;
+    border-radius: 4px;
+    float: right;
+}
+
+.test {
+    border: 1px solid black;
+}
+
+#gif {
+    width: 15vw;
+    height: auto;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+#imglogo {
+    width: 4vw;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-radius: 4px;
+}
+
+.col-6 {
+   margin-top: 5%;
+    margin-left: 3%;
+}
+
+.navbar {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    top: 26px;
+    background: #FFFFFF;
+}
+
+
+
+#Jenny {
+  background-color: white;
+}
+
+#Melissa {
+    background-color: white;
+  }
