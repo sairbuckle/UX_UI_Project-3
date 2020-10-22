@@ -77,12 +77,8 @@ margin-top:8%;
 }
 
 .container {
-    width: 80%;
-    /* height: auto;  */
-    /* padding-top: 10%; */
-    /* padding-bottom: 10%;  */
+    width: 100%;
     background-color: none;
-
 }
 
 .overview {
@@ -107,7 +103,6 @@ margin-top:8%;
 
 .download {
     background-color:white;
-    padding: 0.px;
 }
 
 .row {
@@ -121,11 +116,11 @@ margin-top:8%;
     padding-left: 3%;
 }
 
+#downloads {
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
 
-/* #nav {
-    margin-top: 1%;
-    margin-left: 10%;
-} */
 
 #AIintro {
     margin-left: 6%;
@@ -140,9 +135,7 @@ margin-top:8%;
     float: right;
 }
 
-/* .test {
-    border: 1px solid black;
-} */
+
 
 #gif {
     width: 15vw;
@@ -167,7 +160,7 @@ margin-top:8%;
     height: auto;
     left: 10%;
     top: 26px;
-    /* background: #FFFFFF; */
+    background-color: none;
 }
 
 .quotes {
