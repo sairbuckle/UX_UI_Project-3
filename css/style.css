@@ -50,6 +50,19 @@ p {
     font-size: min(max(0.7rem, 1.1vw),16px);
 }
 
+.review {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: min(max(0.7rem, 1.1vw),16px);
+}
+
+.avatar {
+    position: relative;
+    float: bottom;
+    padding: 2%;
+}
+
 #apple {
 max-width: 8vw;
 min-width: 8vw;
@@ -62,7 +75,7 @@ margin-top:8%;
     width: 9vw;
     height: auto;
     margin-top:8%;
-    margin-left: 2%;
+    margin-left: 3%;
     }
 
 #AIintro {
@@ -127,22 +140,30 @@ margin-top:8%;
     margin-top: 5%;
 }
 
-.iphone {
-    width: 30vw;
+#iphone {
+    width: 20vw;
+    height: auto;
+    padding: 1%;
+    border-radius: 4px;
+    float: left;
+}
+
+#gif {
+    width: 20vw;
     height: auto;
     padding: 1%;
     border-radius: 4px;
     float: right;
 }
 
-
-
-#gif {
-    width: 15vw;
+#hero {
+    width: 35vw;
     height: auto;
     padding: 1%;
     border-radius: 4px;
+    float: right;
 }
+
 
 #imglogo {
     width: 4vw;
