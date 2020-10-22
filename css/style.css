@@ -29,7 +29,7 @@ h3 {
 
 h4 {
     font-family: 'Lato', sans-serif;
-    font-style: normal;
+    font-weight: 300;
     letter-spacing: 1px;
     color: black;
     font-size: min(max(0.8rem, 1.4vw),36px);
@@ -61,6 +61,12 @@ p {
     position: relative;
     float: bottom;
     padding: 2%;
+}
+
+#herologo {
+    padding-right: 2%;
+    width: 5vw;
+    height: auto;
 }
 
 #apple {
