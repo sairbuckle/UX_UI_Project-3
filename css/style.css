@@ -24,7 +24,7 @@ h3 {
     font-weight: bold;
     letter-spacing: 1px;
     color: black;
-    font-size: min(max(1rem, 1.5vw),36px);
+    font-size: min(max(0.8rem, 1.4vw),36px);
 }
 
 h4 {
@@ -32,7 +32,7 @@ h4 {
     font-style: normal;
     letter-spacing: 1px;
     color: black;
-    font-size: min(max(1rem, 1.5vw),36px);
+    font-size: min(max(0.8rem, 1.4vw),36px);
 }
 
 
@@ -47,7 +47,7 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: black;
-    font-size: min(max(0.8rem, 1.1vw),16px);
+    font-size: min(max(0.7rem, 1.1vw),16px);
 }
 
 #apple {
@@ -58,10 +58,6 @@ min-height: auto;
 margin-top:8%;
 }
 
-#AIintro {
-    padding-left: 3%;
-}
-
 #google {
     width: 9vw;
     height: auto;
@@ -69,8 +65,9 @@ margin-top:8%;
     margin-left: 2%;
     }
 
-
-
+#AIintro {
+    padding-left: 3%;
+}
 
 .icons {
     width: 3vw;
@@ -78,7 +75,6 @@ margin-top:8%;
     padding: 2%;
     border-radius: 4px;
 }
-
 
 .container {
     width: 80%;
@@ -105,6 +101,15 @@ margin-top:8%;
     background-color:rgb(255, 215, 236) ;
 }
 
+.hero {
+    background-color: rgb(255, 236, 225);
+}
+
+.download {
+    background-color:white;
+    padding: 0.px;
+}
+
 .row {
     margin-left: 7%;
     margin-right: 7%;
@@ -116,14 +121,11 @@ margin-top:8%;
     padding-left: 3%;
 }
 
-.test {
-    color: black;
-}
 
-#nav {
+/* #nav {
     margin-top: 1%;
     margin-left: 10%;
-}
+} */
 
 #AIintro {
     margin-left: 6%;
@@ -131,16 +133,16 @@ margin-top:8%;
 }
 
 .iphone {
-    width: 20vw;
+    width: 30vw;
     height: auto;
     padding: 1%;
     border-radius: 4px;
     float: right;
 }
 
-.test {
+/* .test {
     border: 1px solid black;
-}
+} */
 
 #gif {
     width: 15vw;
@@ -158,10 +160,6 @@ margin-top:8%;
     border-radius: 4px;
 }
 
-.col-6 {
-   margin-top: 5%;
-    margin-left: 3%;
-}
 
 .navbar {
     position: relative;
@@ -169,15 +167,11 @@ margin-top:8%;
     height: auto;
     left: 10%;
     top: 26px;
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
 }
 
-
-
-#Jenny {
+.quotes {
   background-color: white;
+  padding: 3%;
+  margin-left: 1%;
 }
-
-#Melissa {
-    background-color: white;
-  }
