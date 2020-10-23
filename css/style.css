@@ -75,6 +75,7 @@ min-width: 9vw;
 max-height: auto;
 min-height: auto;
 margin-top:8%;
+padding-bottom: 5%;
 }
 
 #google {
@@ -83,6 +84,7 @@ margin-top:8%;
     height: auto;
     margin-top:8%;
     margin-left: 3%;
+    padding-bottom: 5%;
     }
 
 #AIintro {
