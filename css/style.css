@@ -14,7 +14,7 @@ color: black;
 }
 
 .kerning {
-    font-size: 36px;
+    font-size: min(max(1.4rem, 2vw),50px);
 
 }
 
@@ -24,7 +24,7 @@ h3 {
     font-weight: bold;
     letter-spacing: 1px;
     color: black;
-    font-size: min(max(0.8rem, 1.4vw),36px);
+    font-size: min(max(0.8rem, 2vw),42px);
 }
 
 h4 {
@@ -38,7 +38,7 @@ h4 {
 
 h5 {
     font-family: 'Roboto', sans-serif;
-    font-style: bold;
+    font-weight: 500;
     color: black;
     font-size: min(max(0.6rem, 1vw),12px);
 }
@@ -47,7 +47,7 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: black;
-    font-size: min(max(0.7rem, 1.1vw),16px);
+    font-size: min(max(0.7rem, 1.3vw),18px);
 }
 
 .review {
@@ -70,15 +70,16 @@ p {
 }
 
 #apple {
-max-width: 8vw;
-min-width: 8vw;
+max-width: 12vw;
+min-width: 9vw;
 max-height: auto;
 min-height: auto;
 margin-top:8%;
 }
 
 #google {
-    width: 9vw;
+    max-width: 13vw;
+    min-width: 10vw;
     height: auto;
     margin-top:8%;
     margin-left: 3%;
@@ -138,6 +139,9 @@ margin-top:8%;
 #downloads {
     padding-top: 4%;
     padding-bottom: 3%;
+    font-weight: 600;
+    font-size: medium;
+    font-size: min(max(0.9rem, 1.4vw),24px);
 }
 
 
@@ -163,7 +167,10 @@ margin-top:8%;
 }
 
 #hero {
-    width: 35vw;
+    max-width: 30vw;
+    max-height: auto;
+    min-width: 15vw;
+    min-height: auto;
     height: auto;
     padding: 1%;
     border-radius: 4px;
