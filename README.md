@@ -1,4 +1,4 @@
-# COMMUNIKATE
+# COMMUNIKATE: Keyboard plugin app
 
 ### Group 5 Contributors
 * Darya Sesitskaya
